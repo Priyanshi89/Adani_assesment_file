@@ -25,7 +25,7 @@ The goal is to demonstrate an **end-to-end NLP pipeline** including dataset hand
 The dataset is loaded using:
 ```python
 from datasets import load_dataset
-dataset = load_dataset("xsum")
+dataset = load_dataset("xsum")```
 
 Model Used: facebook/bart-large-xsum
 
