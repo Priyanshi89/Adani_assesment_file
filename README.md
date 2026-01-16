@@ -41,6 +41,16 @@ Encoder–decoder structure allows understanding long documents
 
 Pre-trained model enables efficient transfer learning
 
+
+## 🔄 Pipeline Explanation
+
+1. Load the XSUM dataset containing news articles and summaries.
+2. Preprocess text using the BART tokenizer (tokenization, truncation, padding).
+3. Pass the processed text to a pre-trained BART encoder–decoder model.
+4. Generate abstractive summaries using beam search decoding.
+5. Deploy the inference pipeline using a Streamlit web application.
+
+
 ## 🔧 Steps to Run the Project
 
 1. Clone the repository
