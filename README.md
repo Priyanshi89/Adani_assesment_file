@@ -23,11 +23,12 @@ The goal is to demonstrate an **end-to-end NLP pipeline** including dataset hand
 | `summary` | Ground truth abstractive summary |
 
 The dataset is loaded using:
-```python
+python
 from datasets import load_dataset
-dataset = load_dataset("xsum")```
+dataset = load_dataset("xsum")
 
-Model Used: facebook/bart-large-xsum
+
+## Model Used: facebook/bart-large-xsum
 
 Architecture: Transformer-based Encoder–Decoder (BART)
 
@@ -54,7 +55,25 @@ Pre-trained model enables efficient transfer learning
 ## Steps to Run the Project
 
 1. Clone the repository
-```bash
+bash
 git clone <repository-url>
 cd text-summarization
+
+2. Install Dependencies
+pip install -r requirements.txt
+
+3. Run app
+
+##  Conclusion
+
+This project demonstrates an end-to-end **LLM-based text summarization workflow**, covering:
+
+- Dataset understanding  
+- Model selection  
+- Preprocessing  
+- Inference  
+- Deployment  
+
+The implementation follows standard machine learning practices and effectively showcases the complete NLP pipeline.
+
 
