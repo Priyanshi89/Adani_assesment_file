@@ -40,3 +40,11 @@ Suitable for abstractive summarization of news articles
 Encoder–decoder structure allows understanding long documents
 
 Pre-trained model enables efficient transfer learning
+
+## 🔧 Steps to Run the Project
+
+1. Clone the repository
+```bash
+git clone <repository-url>
+cd text-summarization
+
